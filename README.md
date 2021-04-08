@@ -32,6 +32,5 @@ User needs to fill out the *userInfo* script with their own information.  After 
     - Solution: close other chrome browsers; having multiple open can slow down the browser we are using, causing errors
 
 ## Program Flow
-
-Insert Sequence Diagram Here
+[Sequence Diagram](https://github.com/Michael-Hensley/GitHub-Downloader-Capstone/blob/main/Use%20Case%20Github%20Downloader%20-%20GitHub%20Downloader%20Sequence.pdf)
 
