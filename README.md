@@ -1,5 +1,9 @@
 # GitHub Homework Downloader
 
+## Table of Contents
+1. [About](https://github.com/Michael-Hensley/GitHub-Downloader-Capstone#about)
+2. [Requirements](https://github.com/Michael-Hensley/GitHub-Downloader-Capstone#requirements)
+3. [Usage](https://github.com/Michael-Hensley/GitHub-Downloader-Capstone#usage)
 ## About
 This is a project developed to streamline the process of downloading GitHub projects.  The script navigates to Blackboard using selenium (chrome driver) and downloads a CSV file.  It then parses through the CSV file using pandas to extract out student names and GitHub project links.  The links are then checked for formatting errors and to make sure that the pages exist.  After the invalid links are filtered out, the download portion of the script is then scheduled to run at a user specified time.  Once the time elapses, the links are then loaded using selenium and downloaded.  To prevent naming conflicts, the projects are renamed using the previously mentioned extracted student names.  After all the projects are downloaded, they are then unzipped and placed into their respective folders.  Finally, the selenium webdriver is closed and the leftover zip files are removed.
 
