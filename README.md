@@ -21,6 +21,9 @@ There are several requirements to use this program *as is*:
 ## Usage
 User needs to fill out the *userInfo* script with their own information.  After doing that, set your desired download time (Default: 12:01 A.M. Sunday) and start the script, thats it! 
 
+## dependencies
+
+
 ## Common Errors
 - Path too long error can occur when the zip files are extracted
     - Solution: move download folder closer to root directory or enable long path names in registry
@@ -34,6 +37,6 @@ User needs to fill out the *userInfo* script with their own information.  After 
     - Make sure to open the folder containing the scripts, not just the single main script
 
 ## Program Flow
-![Sequence Diagram](https://github.com/Michael-Hensley/GitHub-Downloader-Capstone/blob/main/Modeling/Sequence%20Diagram.jpeg)
+![Sequence Diagram](https://github.com/Michael-Hensley/GitHub-Downloader-Capstone/blob/main/Modeling/Sequence%20Diagram.pdf)
 
 
