@@ -37,6 +37,6 @@ User needs to fill out the *userInfo* script with their own information.  After 
     - Make sure to open the folder containing the scripts, not just the single main script
 
 ## Program Flow
-![Sequence Diagram](https://github.com/Michael-Hensley/GitHub-Downloader-Capstone/blob/main/Modeling/Sequence%20Diagram.pdf)
+![Sequence Diagram](https://github.com/Michael-Hensley/GitHub-Downloader-Capstone/blob/main/Modeling/Sequence%20Diagram.jpeg)
 
 
