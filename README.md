@@ -19,7 +19,7 @@ There are several requirements to use this program *as is*:
 - Download folder needs to be empty before run for best results
 
 ## Usage
-User needs to fill out the *userInfo* script with their own information.  After doing that, set your desired download time and start the script, thats it! 
+User needs to fill out the *userInfo* script with their own information.  After doing that, set your desired download time (Default: 12:01 A.M. Sunday) and start the script, thats it! 
 
 ## Common Errors
 - Path too long error can occur when the zip files are extracted

@@ -252,7 +252,7 @@ if __name__ == "__main__":
 
     headlessDriver.quit() #Closes driver 
 
-    schedule.every().saturday.at("00:01").do(startScript) #Schedule function call at specified time, uses 24 hr format  EX. "05:30", "13:59", "22:05"
+    schedule.every().sunday.at("00:01").do(startScript) #Schedule function call at specified time, uses 24 hr format  EX. "05:30", "13:59", "22:05"
 
     print("Script Scheduled\n")
 
