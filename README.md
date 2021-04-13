@@ -22,10 +22,10 @@ There are several requirements to use this program *as is*:
 User needs to fill out the *userInfo* script with their own information.  After doing that, set your desired download time (Default: 12:01 A.M. Sunday) and start the script, thats it! 
 
 ## Python Package Dependencies
--Pandas
--Selenium
--Schedule
--Colorama
+- Pandas
+- Selenium
+- Schedule
+- Colorama
 
 ## Common Errors
 - Path too long error can occur when the zip files are extracted
