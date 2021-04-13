@@ -14,7 +14,7 @@ This is a project developed to streamline the process of downloading GitHub proj
 There are several requirements to use this program *as is*:
 - Blackboard account containing test results
 - Sufficient storage space
-- [Chromedriver](https://chromedriver.chromium.org/downloads) matching your own version of chrome ***must*** be in same directory as the scripts
+- [Chromedriver](https://chromedriver.chromium.org/downloads) matching your own version of chrome ***must*** be in same directory as the scripts (V.89 chromedriver included)
 - Download folder needs to be somewhat close to root directory 
 - Download folder needs to be empty before run for best results
 
@@ -30,6 +30,8 @@ User needs to fill out the *userInfo* script with their own information.  After 
     - Solution: make sure the chromedriver is the right version and in the same directory as the scripts
 - Element not found error in selenium
     - Solution: close other chrome browsers; having multiple open can slow down the browser we are using, causing errors
+- Other errors
+    - Make sure to open the folder containing the scripts, not just the single main script
 
 ## Program Flow
 ![Sequence Diagram](https://github.com/Michael-Hensley/GitHub-Downloader-Capstone/blob/main/Modeling/Sequence%20Diagram.jpeg)
