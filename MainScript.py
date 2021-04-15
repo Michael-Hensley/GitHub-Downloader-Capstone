@@ -25,6 +25,8 @@ def getCSVFile(driver):
     from userInfo import BB_User, BB_Pw
     print(textColor.RED,"Downloading CSV file", Style.RESET_ALL)
 
+    print("\n Fetching Download Options", end= "\r")
+
     driver.get("https://bb.nsuok.edu/ultra/stream")
 
     driver.find_element_by_id("username").send_keys(BB_User)
